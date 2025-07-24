@@ -251,6 +251,7 @@
 
 #section-five {
   padding-bottom: 80px;
+  transform: translateY(-1px);
 }
 
 #section-five .title-sec h2 {
@@ -266,6 +267,7 @@
 #section-five .swiper {
   width: 70%;
   height: 100%;
+  padding: 20px 0;
 }
 
 #section-five .swiper-slide {

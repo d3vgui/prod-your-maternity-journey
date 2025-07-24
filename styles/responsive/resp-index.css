@@ -1,7 +1,7 @@
 @media (max-width: 1199px) {
   #section-one .overlay-text {
     left: 50%;
-    width: 80%;
+    width: 90%;
     text-align: center;
   }
 }
@@ -137,12 +137,28 @@
     display: block;
     width: 380px;
   }
+
+  #section-five .swiper-slide{
+    padding: 30px 0;
+  }
+
+  #section-five .swiper-slide .text {
+    height: 350px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: 470px !important;
+  }
 }
 
 @media (max-width: 425px) {
-  h2,
-  h3 {
+  h2 {
     font-size: 30px !important;
+  }
+
+  #section-two .left-content h3 {
+    font-size: 30px;
   }
 
   #section-three .left-content ul a {
