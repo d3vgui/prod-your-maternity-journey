@@ -1,0 +1,26 @@
+@media (max-width: 1080px) {
+  #section-one {
+    padding-top: 108px;
+  }
+}
+
+@media (max-width: 991px) {
+  .custom-shape-divider-top-1753301863 svg {
+    height: 130px;
+  }
+
+  .custom-shape-divider-bottom-1753301977 svg {
+    height: 120px;
+  }
+
+  #section-one .title-sec p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  #section-one .content-sec-one img {
+    height: 300px;
+    width: 300px;
+  }
+}

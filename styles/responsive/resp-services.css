@@ -1,0 +1,145 @@
+@media (max-width: 991px) {
+  h2 {
+    font-size: 40px !important;
+  }
+
+  /* SECTION ONE */
+  #section-one {
+    padding-top: 160px;
+    padding-bottom: 40px;
+  }
+
+  /* SECTION TWO */
+
+  #section-two {
+    padding: 40px 0;
+  }
+
+  #section-two .content-sec-two {
+    flex-direction: column-reverse;
+  }
+
+  #section-two .left-content {
+    margin-top: 45px;
+  }
+
+  /* SECTION THREE */
+
+  #section-three {
+    padding: 40px 0;
+  }
+
+  #section-three .right-content {
+    margin-top: 45px;
+  }
+
+  /* SECTION FOUR */
+
+  #section-four {
+    padding: 40px 0;
+  }
+
+  #section-four .content-sec-four {
+    flex-direction: column-reverse;
+  }
+
+  #section-four .left-content {
+    margin-top: 45px;
+  }
+
+  /* SECTION FIVE */
+
+  #section-five {
+    padding: 40px 0;
+  }
+
+  #section-five .right-content {
+    margin-top: 45px;
+  }
+
+  /* SECTION SIX */
+
+  #section-six {
+    padding: 40px 0;
+  }
+
+  #section-six .content-sec-six {
+    flex-direction: column-reverse;
+  }
+
+  #section-six .left-content {
+    margin-top: 45px;
+  }
+
+  /* SECTION SEVEN */
+
+  #section-seven {
+    padding: 40px 0;
+  }
+
+  #section-seven .right-content {
+    margin-top: 45px;
+  }
+
+  /* SECTION EIGHT */
+
+  #section-eight {
+    padding: 40px 0;
+  }
+
+  #section-eight .content-sec-eight {
+    flex-direction: column-reverse;
+  }
+
+  #section-eight .left-content {
+    margin-top: 45px;
+  }
+
+  /* SECTION NINE */
+
+  #section-nine {
+    padding: 40px 0;
+  }
+
+  #section-nine .right-content {
+    margin-top: 45px;
+  }
+
+  /* SECTION TEN */
+
+  #section-ten {
+    padding: 40px 0;
+  }
+
+  #section-ten .content-sec-ten {
+    flex-direction: column-reverse;
+  }
+
+  #section-ten .left-content {
+    margin-top: 45px;
+  }
+
+  /* SECTION ELEVEN */
+
+  #section-eleven {
+    padding: 40px 0;
+  }
+
+  #section-eleven .right-content {
+    margin-top: 45px;
+  }
+
+  /* SECTION TWELVE */
+
+  #section-twelve {
+    padding: 40px 0;
+  }
+
+  #section-twelve .content-sec-twelve {
+    flex-direction: column-reverse;
+  }
+
+  #section-twelve .left-content {
+    margin-top: 45px;
+  }
+}

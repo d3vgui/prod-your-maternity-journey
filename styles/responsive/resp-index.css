@@ -1,0 +1,153 @@
+@media (max-width: 1199px) {
+  #section-one .overlay-text {
+    left: 50%;
+    width: 80%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  /* SECTION ONE */
+
+  #section-one .overlay-text h2 {
+    font-size: 40px;
+  }
+
+  /* SECTION TWO */
+  #section-two .left-content h2 {
+    font-size: 40px;
+  }
+
+  #section-two .left-content h3 {
+    font-size: 40px;
+  }
+
+  #section-two .left-content p {
+    font-size: 16px;
+  }
+
+  #section-two .right-content {
+    margin-top: 45px;
+  }
+
+  /* SECTION THREE */
+
+  #section-three {
+    padding-bottom: 40px;
+  }
+
+  #section-three .content-sec-three {
+    flex-direction: column-reverse;
+  }
+
+  #section-three .left-content {
+    margin-top: 45px;
+  }
+
+  #section-three .right-content h2 {
+    font-size: 40px;
+  }
+
+  /* SECTION FOUR */
+
+  #section-four {
+    padding-top: 40px;
+  }
+
+  #section-four .left-content h2 {
+    font-size: 40px;
+  }
+
+  #section-four .right-content img {
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+  }
+
+  #section-four .right-content {
+    margin-top: 45px;
+  }
+
+  /* SECTION FIVE */
+
+  #section-five {
+    padding-bottom: 40px;
+  }
+
+  #section-five .swiper {
+    width: 100%;
+  }
+
+  #section-five .title-sec h2 {
+    font-size: 40px;
+  }
+
+  /* SECTION SIX */
+
+  #section-six {
+    padding: 40px 0;
+  }
+
+  #section-six .content-sec-six h2 {
+    font-size: 40px;
+  }
+
+  #section-six .content-sec-six p {
+    width: 100%;
+  }
+
+  /* SECTION SEVEN */
+
+  #section-seven {
+    padding-top: 40px;
+  }
+
+  #section-seven .title-sec h2 {
+    font-size: 40px;
+  }
+
+  #section-seven .title-sec p {
+    width: 100%;
+  }
+
+  /* SECTION EIGHT */
+
+  #section-eight .left-content h2 {
+    font-size: 40px;
+  }
+
+  #section-eight .right-content {
+    margin-top: 45px;
+  }
+
+  #section-eight .right-content img {
+    height: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  #section-two .swiper-slide img {
+    height: 500px;
+  }
+}
+
+@media (max-width: 575px) {
+  #section-three .left-content ul a {
+    text-decoration: none;
+    display: block;
+    width: 380px;
+  }
+}
+
+@media (max-width: 425px) {
+  h2,
+  h3 {
+    font-size: 30px !important;
+  }
+
+  #section-three .left-content ul a {
+    text-decoration: none;
+    display: block;
+    width: 310px;
+  }
+}
