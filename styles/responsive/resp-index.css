@@ -6,7 +6,18 @@
   }
 }
 
+@media (max-width: 1080px){
+  #section-one video{
+    padding-top: 100px;
+  }
+}
+
 @media (max-width: 991px) {
+
+  svg{
+    height: 100px !important;
+  }
+
   /* SECTION ONE */
 
   #section-one .overlay-text h2 {

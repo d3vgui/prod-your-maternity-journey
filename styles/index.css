@@ -10,6 +10,7 @@
   filter: brightness(40%);
   pointer-events: none;
   user-select: none;
+  padding-top: 150px;
 }
 
 #section-one .overlay-text {
@@ -18,7 +19,8 @@
   left: 40%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  padding: 1rem;
+  padding-top: 15%;
+  padding-bottom: 5%;
   color: var(--white);
   width: 50%;
 }
@@ -28,7 +30,7 @@
   margin: 0;
 }
 
-#section-one .overlay-text h2{
+#section-one .overlay-text h2 {
   font-size: 50px;
   margin-top: 10px;
 }
@@ -37,11 +39,11 @@
   margin-top: 20px;
 }
 
-#section-one .btn-contact-us{
+#section-one .btn-contact-us {
   margin-top: 30px;
 }
 
-#section-one .btn-contact-us a{
+#section-one .btn-contact-us a {
   padding: 10px 25px;
   background-color: var(--first-color);
   color: var(--white);
@@ -51,17 +53,21 @@
   transition: 0.4s ease;
 }
 
-#section-one .btn-contact-us a:hover{
+#section-one .btn-contact-us a:hover {
   margin-left: 15px;
 }
 
-#section-one .btn-contact-us i{
+#section-one .btn-contact-us i {
   margin-left: 10px;
 }
 
 /* SECTION TWO */
 
-#section-two .content-sec-two{
+#section-two {
+  padding: 50px 0;
+}
+
+#section-two .content-sec-two {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -122,10 +128,53 @@
   border-radius: 20px;
 }
 
+.custom-shape-divider-top-1753474152 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1753474152 svg {
+    position: relative;
+    display: block;
+    width: calc(134% + 1.3px);
+    height: 206px;
+    background-color: var(--third-color);
+}
+
+.custom-shape-divider-top-1753474152 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.custom-shape-divider-bottom-1753474213 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1753474213 svg {
+    position: relative;
+    display: block;
+    width: calc(181% + 1.3px);
+    height: 206px;
+    background-color: var(--third-color);
+}
+
+.custom-shape-divider-bottom-1753474213 .shape-fill {
+    fill: #FFFFFF;
+}
+
 /* SECTION THREE */
 
 #section-three {
-  transform: translateY(-1px);
+  padding-top: 40px;
   padding-bottom: 80px;
 }
 
@@ -199,6 +248,7 @@
 
 #section-four {
   padding-top: 80px;
+  padding-bottom: 40px;
   background-color: var(--third-color);
   color: var(--first-color);
 }
@@ -247,9 +297,54 @@
   border-radius: 20px;
 }
 
+.custom-shape-divider-top-1753475055 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1753475055 svg {
+    position: relative;
+    display: block;
+    width: calc(184% + 1.3px);
+    height: 146px;
+    background-color: var(--first-color);
+}
+
+.custom-shape-divider-top-1753475055 .shape-fill {
+    fill: var(--third-color);
+}
+
+
 /* SECTION FIVE */
 
+.custom-shape-divider-bottom-1753475004 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1753475004 svg {
+    position: relative;
+    display: block;
+    width: calc(119% + 1.3px);
+    height: 120px;
+    background-color: var(--first-color);
+}
+
+.custom-shape-divider-bottom-1753475004 .shape-fill {
+    fill: #FFFFFF;
+}
+
 #section-five {
+  padding-top: 40px;
   padding-bottom: 80px;
   transform: translateY(-1px);
 }
@@ -325,7 +420,7 @@
 /* SECTION SIX */
 
 #section-six {
-  padding: 80px 0;
+  padding: 60px 0;
   background-color: var(--second-color);
   color: var(--white);
 }
@@ -426,9 +521,53 @@
   margin-left: 10px;
 }
 
+.custom-shape-divider-top-1753474354 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1753474354 svg {
+    position: relative;
+    display: block;
+    width: calc(239% + 1.3px);
+    height: 336px;
+    background-color: var(--third-color);
+}
+
+.custom-shape-divider-top-1753474354 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.custom-shape-divider-bottom-1753474407 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1753474407 svg {
+    position: relative;
+    display: block;
+    width: calc(113% + 1.3px);
+    height: 169px;
+    background-color: var(--third-color);
+}
+
+.custom-shape-divider-bottom-1753474407 .shape-fill {
+    fill: #FFFFFF;
+}
+
 /* SECTION EIGHT */
 
 #section-eight {
+  padding-top: 40px;
   padding-bottom: 80px;
 }
 
