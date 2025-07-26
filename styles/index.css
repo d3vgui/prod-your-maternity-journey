@@ -204,7 +204,7 @@
 }
 
 #section-three .left-content ul li {
-  margin-top: 10px;
+  margin-top: 25px;
   color: var(--first-color);
   list-style-type: none;
   font-weight: 550;
@@ -375,12 +375,25 @@
 }
 
 #section-five .swiper-slide .text {
-  height: 200px;
+  height: 300px;
+  border: 2px solid var(--first-color);
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--third-color);
+  color: var(--first-color);
+  padding: 15px;
+  border-radius: 20px;
+  flex-direction: column;
+}
+
+#section-five .swiper-slide .text img{
+  height: 70px;
 }
 
 #section-five .swiper-slide .name {
   display: flex;
   justify-content: center;
+  margin-top: 30px;
 }
 
 #section-five .swiper-slide .name p {

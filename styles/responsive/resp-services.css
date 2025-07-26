@@ -9,6 +9,10 @@
     padding-bottom: 40px;
   }
 
+  #section-one .content-sec-one p{
+    width: 100%;
+  }
+
   /* SECTION TWO */
 
   #section-two {
