@@ -254,7 +254,7 @@
 .swiper-button-next,
 .swiper-button-prev {
   position: absolute;
-  top: 350px;
+  top: 300px;
   width: 40px;
   height: 40px;
   margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
@@ -265,7 +265,7 @@
   justify-content: center;
   color: var(--first-color);
   border-radius: 50%;
-  background-color: var(--third-color);
+  background-color: var(--white);
   border: 1px solid var(--first-color);
 }
 .swiper-button-next.swiper-button-disabled,

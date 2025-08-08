@@ -1,9 +1,11 @@
 var swiper = new Swiper(".mySwiper", {
   speed: 900,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    autoplay: {
+    delay: 10000,
+    disableOnInteraction: false,
   },
+  loop: true,
+  spaceBetween: 20,
 });
 
 var swiper = new Swiper(".mySwiper2", {
@@ -27,5 +29,9 @@ var swiper = new Swiper(".mySwiper3", {
   autoplay: {
     delay: 10000,
     disableOnInteraction: false,
-  }
+  },
+    navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
 });

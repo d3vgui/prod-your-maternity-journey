@@ -32,6 +32,10 @@
   background-color: var(--third-color);
 }
 
+#section-two #bold{
+  font-weight: bold;
+}
+
 #section-two .content-sec-two {
   display: flex;
   align-items: center;
@@ -39,21 +43,15 @@
 }
 
 #section-two .right-content img {
-  border-radius: 20px;
   object-fit: cover;
   height: 600px;
-  object-fit: cover;
+  border-radius: 50px 20px 50px 20px;
+  border: 2px solid var(--first-color);
 }
 
 #section-two .left-content p {
   color: var(--first-color);
   font-size: 18px;
-}
-
-#section-two .right-content img {
-  height: 600px;
-  object-fit: cover;
-  border-radius: 20px;
 }
 
 #section-two .left-content h2 {
