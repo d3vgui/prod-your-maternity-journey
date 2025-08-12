@@ -248,8 +248,7 @@
 
 #section-four {
   padding-top: 80px;
-  padding-bottom: 40px;
-  background-color: var(--third-color);
+  padding-bottom: 80px;
   color: var(--first-color);
 }
 
@@ -315,7 +314,7 @@
 }
 
 .custom-shape-divider-top-1753475055 .shape-fill {
-    fill: var(--third-color);
+    fill: var(--white);
 }
 
 

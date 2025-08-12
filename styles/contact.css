@@ -37,25 +37,28 @@
     border-radius: 70px 20px;
     color: var(--first-color);
     border: 2px solid var(--first-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #section-one .left-content .title{
-    height: 120px;
+    /* height: 120px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 #section-one .left-content .info{
-    height: 180px;
+    /* height: 220px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-#section-one .left-content .social{
+/* #section-one .left-content .social{
     height: 100px;
-}
+} */
 
 #section-one .left-content .logo img{
     height: 80px;
