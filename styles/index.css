@@ -397,19 +397,20 @@
 }
 
 #section-five .btn-know-more {
-  margin-top: 40px;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
 }
 
 #section-five .btn-know-more a {
-  padding: 10px 25px;
+  padding: 20px 30px;
   background-color: var(--first-color);
   color: var(--white);
   text-decoration: none;
   border-radius: 20px;
   font-weight: 550;
   transition: 0.4s;
+  text-align: center;
 }
 
 #section-five .btn-know-more a:hover {
