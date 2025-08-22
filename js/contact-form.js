@@ -10,7 +10,7 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
   .then(response => {
     if (response.ok) {
       Toastify({
-        text: "✅ Mensagem enviada com sucesso!",
+        text: "✅ Message sent successfully!",
         backgroundColor: "linear-gradient(to right, #00b09b, #96c93d)",
         duration: 4000,
         gravity: "bottom", // posição vertical
@@ -19,7 +19,7 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
       this.reset();
     } else {
       Toastify({
-        text: "❌ Erro ao enviar mensagem.",
+        text: "❌ Error sending message.",
         backgroundColor: "linear-gradient(to right, #ff5f6d, #ffc371)",
         duration: 4000,
         gravity: "bottom",
@@ -29,7 +29,7 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
   })
   .catch(() => {
     Toastify({
-      text: "⚠️ Ocorreu um erro inesperado.",
+      text: "⚠️ An unexpected error has occurred.",
       backgroundColor: "linear-gradient(to right, #ff5f6d, #ffc371)",
       duration: 4000,
       gravity: "top",
